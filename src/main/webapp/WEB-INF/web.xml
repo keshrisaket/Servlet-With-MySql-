@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Session_Tracking_With_Servlet</display-name>
+  <servlet>
+    <description></description>
+    <display-name>FirstServ</display-name>
+    <servlet-name>FirstServ</servlet-name>
+    <servlet-class>p1.FirstServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstServ</servlet-name>
+    <url-pattern>/FirstServ</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>personal.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>SecondServ</display-name>
+    <servlet-name>SecondServ</servlet-name>
+    <servlet-class>p1.SecondServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SecondServ</servlet-name>
+    <url-pattern>/SecondServ</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FinalServ</display-name>
+    <servlet-name>FinalServ</servlet-name>
+    <servlet-class>p1.FinalServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FinalServ</servlet-name>
+    <url-pattern>/FinalServ</url-pattern>
+  </servlet-mapping>
+</web-app>
